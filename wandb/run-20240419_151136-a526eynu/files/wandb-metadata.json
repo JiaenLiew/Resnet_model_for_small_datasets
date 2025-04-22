@@ -1,0 +1,54 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.4",
+    "heartbeatAt": "2024-04-19T05:11:36.980661",
+    "startedAt": "2024-04-19T05:11:36.179187",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-d",
+        "BerryJam/Data - Is Epic Intro 2024-03-25",
+        "-l",
+        "Labels-IsEpicIntro-2024-03-25.csv",
+        "-t",
+        "Is Epic",
+        "-o",
+        "models/Is Epic/"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\lucyl\\OneDrive\\Desktop\\Backup\\COMP9417\\Sigma_human_images\\9417Sigma\\train.py",
+    "codePathLocal": "train.py",
+    "codePath": "9417Sigma\\train.py",
+    "git": {
+        "remote": "https://github.com/luscarl/Sigma_human_images.git",
+        "commit": "95125a4090a5cb93818ff7e0645e8e0f7eca6850"
+    },
+    "email": "52309716+luscarl@users.noreply.github.com",
+    "root": "C:/Users/lucyl/OneDrive/Desktop/Backup/COMP9417/Sigma_human_images",
+    "host": "LAPTOP-IKV6L335",
+    "username": "lucyl",
+    "executable": "C:\\Users\\lucyl\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1201.0,
+        "min": 0.0,
+        "max": 2803.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1201.0,
+            "min": 0.0,
+            "max": 2803.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 952.6220664978027,
+            "used": 448.716064453125
+        }
+    },
+    "memory": {
+        "total": 15.725639343261719
+    }
+}

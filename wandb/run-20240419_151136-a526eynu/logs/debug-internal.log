@@ -1,0 +1,934 @@
+2024-04-19 15:11:36,190 INFO    StreamThr :34956 [internal.py:wandb_internal():86] W&B internal server running at pid: 34956, started at: 2024-04-19 15:11:36.188730
+2024-04-19 15:11:36,191 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: status
+2024-04-19 15:11:36,194 INFO    WriterThread:34956 [datastore.py:open_for_write():87] open: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\run-a526eynu.wandb
+2024-04-19 15:11:36,196 DEBUG   SenderThread:34956 [sender.py:send():379] send: header
+2024-04-19 15:11:36,306 DEBUG   SenderThread:34956 [sender.py:send():379] send: run
+2024-04-19 15:11:36,872 INFO    SenderThread:34956 [dir_watcher.py:__init__():211] watching files in: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files
+2024-04-19 15:11:36,872 INFO    SenderThread:34956 [sender.py:_start_run_threads():1124] run started: a526eynu with start time 1713503496.191648
+2024-04-19 15:11:36,905 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: check_version
+2024-04-19 15:11:36,905 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: check_version
+2024-04-19 15:11:36,959 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: run_start
+2024-04-19 15:11:36,969 DEBUG   HandlerThread:34956 [system_info.py:__init__():26] System info init
+2024-04-19 15:11:36,969 DEBUG   HandlerThread:34956 [system_info.py:__init__():41] System info init done
+2024-04-19 15:11:36,969 INFO    HandlerThread:34956 [system_monitor.py:start():194] Starting system monitor
+2024-04-19 15:11:36,969 INFO    SystemMonitor:34956 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-19 15:11:36,969 INFO    HandlerThread:34956 [system_monitor.py:probe():214] Collecting system info
+2024-04-19 15:11:36,975 INFO    SystemMonitor:34956 [interfaces.py:start():190] Started cpu monitoring
+2024-04-19 15:11:36,980 DEBUG   HandlerThread:34956 [system_info.py:probe():150] Probing system
+2024-04-19 15:11:36,980 INFO    SystemMonitor:34956 [interfaces.py:start():190] Started disk monitoring
+2024-04-19 15:11:36,991 INFO    SystemMonitor:34956 [interfaces.py:start():190] Started memory monitoring
+2024-04-19 15:11:36,999 INFO    SystemMonitor:34956 [interfaces.py:start():190] Started network monitoring
+2024-04-19 15:11:37,000 DEBUG   HandlerThread:34956 [system_info.py:_probe_git():135] Probing git
+2024-04-19 15:11:37,238 DEBUG   HandlerThread:34956 [system_info.py:_probe_git():143] Probing git done
+2024-04-19 15:11:37,238 DEBUG   HandlerThread:34956 [system_info.py:probe():198] Probing system done
+2024-04-19 15:11:37,239 DEBUG   HandlerThread:34956 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.4', 'heartbeatAt': '2024-04-19T05:11:36.980661', 'startedAt': '2024-04-19T05:11:36.179187', 'docker': None, 'cuda': None, 'args': ('-d', 'BerryJam/Data - Is Epic Intro 2024-03-25', '-l', 'Labels-IsEpicIntro-2024-03-25.csv', '-t', 'Is Epic', '-o', 'models/Is Epic/'), 'state': 'running', 'program': 'C:\\Users\\lucyl\\OneDrive\\Desktop\\Backup\\COMP9417\\Sigma_human_images\\9417Sigma\\train.py', 'codePathLocal': 'train.py', 'codePath': '9417Sigma\\train.py', 'git': {'remote': 'https://github.com/luscarl/Sigma_human_images.git', 'commit': '95125a4090a5cb93818ff7e0645e8e0f7eca6850'}, 'email': '52309716+luscarl@users.noreply.github.com', 'root': 'C:/Users/lucyl/OneDrive/Desktop/Backup/COMP9417/Sigma_human_images', 'host': 'LAPTOP-IKV6L335', 'username': 'lucyl', 'executable': 'C:\\Users\\lucyl\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1201.0, 'min': 0.0, 'max': 2803.0}, 'cpu_freq_per_core': [{'current': 1201.0, 'min': 0.0, 'max': 2803.0}], 'disk': {'/': {'total': 952.6220664978027, 'used': 448.716064453125}}, 'memory': {'total': 15.725639343261719}}
+2024-04-19 15:11:37,239 INFO    HandlerThread:34956 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-19 15:11:37,239 INFO    HandlerThread:34956 [system_monitor.py:probe():227] Publishing system info
+2024-04-19 15:11:37,240 INFO    HandlerThread:34956 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-19 15:11:37,261 DEBUG   SenderThread:34956 [sender.py:send():379] send: files
+2024-04-19 15:11:37,261 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-19 15:11:37,496 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-19 15:11:37,497 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: python_packages
+2024-04-19 15:11:37,497 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-19 15:11:37,499 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: stop_status
+2024-04-19 15:11:37,502 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-19 15:11:37,758 DEBUG   SenderThread:34956 [sender.py:send():379] send: telemetry
+2024-04-19 15:11:37,758 DEBUG   SenderThread:34956 [sender.py:send():379] send: config
+2024-04-19 15:11:37,760 DEBUG   SenderThread:34956 [sender.py:send():379] send: metric
+2024-04-19 15:11:37,760 DEBUG   SenderThread:34956 [sender.py:send():379] send: telemetry
+2024-04-19 15:11:37,760 DEBUG   SenderThread:34956 [sender.py:send():379] send: metric
+2024-04-19 15:11:37,760 WARNING SenderThread:34956 [sender.py:send_metric():1341] Seen metric with glob (shouldn't happen)
+2024-04-19 15:11:37,760 DEBUG   SenderThread:34956 [sender.py:send():379] send: telemetry
+2024-04-19 15:11:37,882 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-metadata.json
+2024-04-19 15:11:37,882 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:11:37,882 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\requirements.txt
+2024-04-19 15:11:38,167 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:38,170 DEBUG   SenderThread:34956 [sender.py:send():379] send: metric
+2024-04-19 15:11:38,171 DEBUG   SenderThread:34956 [sender.py:send():379] send: metric
+2024-04-19 15:11:38,171 DEBUG   SenderThread:34956 [sender.py:send():379] send: metric
+2024-04-19 15:11:38,172 DEBUG   SenderThread:34956 [sender.py:send():379] send: metric
+2024-04-19 15:11:38,173 DEBUG   SenderThread:34956 [sender.py:send():379] send: metric
+2024-04-19 15:11:38,173 DEBUG   SenderThread:34956 [sender.py:send():379] send: metric
+2024-04-19 15:11:38,173 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:38,173 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:38,176 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:38,200 INFO    wandb-upload_0:34956 [upload_job.py:push():131] Uploaded file C:\Users\lucyl\AppData\Local\Temp\tmpp2hsbdciwandb\sp7e4gm3-wandb-metadata.json
+2024-04-19 15:11:38,857 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:38,860 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:38,861 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:38,864 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:38,891 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:11:39,237 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:39,240 DEBUG   SenderThread:34956 [sender.py:send():379] send: metric
+2024-04-19 15:11:39,240 DEBUG   SenderThread:34956 [sender.py:send():379] send: metric
+2024-04-19 15:11:39,241 DEBUG   SenderThread:34956 [sender.py:send():379] send: metric
+2024-04-19 15:11:39,241 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:39,241 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:39,244 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:39,650 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:39,653 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:39,654 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:39,657 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:39,901 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:11:39,901 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:11:40,463 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:40,465 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:40,465 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:40,469 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:40,910 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:11:40,910 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:11:41,153 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:41,155 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:41,155 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:41,157 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:41,271 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: status_report
+2024-04-19 15:11:41,335 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:41,337 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:41,338 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:41,361 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:41,922 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:11:41,922 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:11:42,260 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:42,263 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:42,264 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:42,266 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:42,931 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:11:42,931 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:11:43,215 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:43,217 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:43,217 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:43,220 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:43,707 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:43,709 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:43,710 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:43,713 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:43,940 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:11:43,941 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:11:44,147 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:44,150 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:44,151 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:44,154 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:44,953 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:11:44,953 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:11:45,093 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:45,106 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:45,106 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:45,108 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:45,783 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:45,785 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:45,786 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:45,790 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:45,966 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:45,972 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:45,973 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:45,975 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:45,975 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:11:45,978 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:11:46,420 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: status_report
+2024-04-19 15:11:46,830 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:46,833 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:46,833 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:46,836 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:46,991 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:11:46,992 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:11:47,661 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:47,664 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:47,664 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:47,667 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:47,996 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:11:47,996 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:11:48,096 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:48,097 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:48,098 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:48,099 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:48,550 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:48,553 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:48,553 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:48,556 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:49,008 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:11:49,009 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:11:49,336 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:49,338 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:49,339 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:49,342 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:49,960 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:49,962 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:49,962 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:49,964 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:50,019 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:11:50,019 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:11:50,112 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:50,114 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:50,115 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:50,118 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:50,856 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:50,860 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:50,861 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:50,863 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:51,028 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:11:51,030 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:11:51,527 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: status_report
+2024-04-19 15:11:51,577 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:51,579 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:51,580 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:51,582 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:51,951 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:51,952 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:51,953 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:51,954 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:52,039 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:11:52,039 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:11:52,283 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:52,285 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:52,285 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:52,288 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:52,505 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-19 15:11:52,506 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: stop_status
+2024-04-19 15:11:52,520 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-19 15:11:53,000 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:53,003 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:53,003 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:53,006 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:53,051 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:11:53,051 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:11:53,559 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:53,560 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:53,560 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:53,561 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:53,696 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:53,698 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:53,699 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:53,701 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:54,060 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:11:54,060 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:11:54,428 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:54,431 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:54,432 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:54,434 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:55,069 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:11:55,070 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:11:55,104 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:55,105 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:55,106 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:55,111 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:55,466 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:55,467 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:55,468 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:55,469 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:55,786 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:55,788 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:55,789 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:55,794 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:56,079 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:11:56,080 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:11:56,456 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:56,458 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:56,460 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:56,463 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:56,702 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: status_report
+2024-04-19 15:11:56,956 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:56,957 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:56,958 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:56,959 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:57,068 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:57,070 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:57,071 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:57,072 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:57,088 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:11:57,088 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:11:57,629 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:57,631 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:57,631 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:57,633 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:58,097 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:11:58,097 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:11:58,205 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:58,206 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:58,207 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:58,210 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:58,521 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:58,522 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:58,522 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:58,524 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:58,808 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:58,810 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:58,811 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:58,813 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:59,108 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:11:59,108 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:11:59,412 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:59,413 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:59,414 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:59,416 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:11:59,898 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:11:59,899 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:11:59,900 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:11:59,901 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:00,026 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:00,028 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:00,029 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:00,031 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:00,119 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:00,120 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:00,748 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:00,749 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:00,750 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:00,752 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:01,124 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:01,124 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:01,386 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:01,389 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:01,391 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:01,393 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:01,709 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: status_report
+2024-04-19 15:12:01,710 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:01,711 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:01,711 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:01,713 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:02,030 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:02,032 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:02,033 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:02,034 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:02,137 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:02,138 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:02,667 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:02,669 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:02,670 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:02,672 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:03,149 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:03,150 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:03,204 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:03,204 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:03,205 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:03,206 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:03,348 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:03,350 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:03,350 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:03,352 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:04,028 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:04,030 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:04,031 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:04,034 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:04,154 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:04,154 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:04,707 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:04,710 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:04,710 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:04,712 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:05,046 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:05,048 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:05,048 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:05,049 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:05,163 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:05,164 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:05,372 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:05,376 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:05,376 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:05,380 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:06,014 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:06,017 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:06,017 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:06,019 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:06,170 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:06,171 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:06,552 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:06,554 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:06,554 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:06,555 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:06,684 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:06,686 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:06,686 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:06,690 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:06,965 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: status_report
+2024-04-19 15:12:07,179 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:07,179 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:07,411 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:07,418 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:07,419 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:07,422 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:07,502 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-19 15:12:07,503 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: stop_status
+2024-04-19 15:12:07,534 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-19 15:12:08,072 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:08,075 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:08,076 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:08,079 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:08,184 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:08,185 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:08,185 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\config.yaml
+2024-04-19 15:12:08,404 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:08,405 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:08,405 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:08,407 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:08,731 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:08,733 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:08,734 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:08,737 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:09,197 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:09,198 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:09,439 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:09,441 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:09,442 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:09,444 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:10,000 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:10,002 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:10,002 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:10,003 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:10,139 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:10,142 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:10,144 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:10,146 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:10,204 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:10,204 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:10,825 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:10,826 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:10,828 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:10,830 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:11,215 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:11,216 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:11,515 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:11,517 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:11,517 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:11,521 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:11,866 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:11,868 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:11,868 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:11,870 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:12,202 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:12,203 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:12,204 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:12,206 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:12,223 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:12,224 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:12,435 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: status_report
+2024-04-19 15:12:12,875 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:12,877 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:12,878 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:12,881 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:13,234 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:13,235 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:13,419 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:13,421 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:13,421 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:13,422 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:13,590 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:13,610 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:13,610 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:13,612 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:14,244 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:14,244 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:14,289 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:14,292 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:14,292 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:14,296 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:14,958 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:14,960 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:14,961 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:14,963 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:15,251 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:15,252 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:15,335 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:15,336 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:15,336 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:15,337 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:15,666 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:15,668 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:15,669 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:15,671 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:16,259 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:16,260 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:16,371 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:16,372 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:16,373 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:16,376 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:16,940 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:16,941 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:16,942 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:16,944 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:17,086 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:17,088 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:17,089 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:17,092 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:17,269 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:17,270 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:17,465 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: status_report
+2024-04-19 15:12:17,801 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:17,802 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:17,804 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:17,807 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:18,277 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:18,278 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:18,509 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:18,512 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:18,513 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:18,516 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:18,889 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:18,891 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:18,891 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:18,892 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:19,242 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:19,243 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:19,244 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:19,247 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:19,297 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:19,297 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:19,940 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:19,942 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:19,942 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:19,944 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:20,292 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:20,293 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:20,506 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:20,508 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:20,509 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:20,511 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:20,693 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:20,695 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:20,696 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:20,704 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:21,300 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:21,301 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:21,439 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:21,456 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:21,459 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:21,461 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:22,193 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:22,194 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:22,194 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:22,196 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:22,315 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:22,315 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:22,516 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-19 15:12:22,517 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: stop_status
+2024-04-19 15:12:22,547 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-19 15:12:22,582 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:22,720 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:22,721 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: status_report
+2024-04-19 15:12:22,721 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:22,723 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:22,940 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:22,944 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:22,944 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:22,946 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:23,323 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:23,324 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:23,666 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:23,668 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:23,669 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:23,672 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:24,271 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:24,273 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:24,275 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:24,276 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:24,333 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:24,334 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:24,418 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:24,419 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:24,420 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:24,423 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:25,155 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:25,158 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:25,159 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:25,163 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:25,341 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:25,341 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:25,867 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:25,869 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:25,871 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:25,873 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:26,250 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:26,252 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:26,252 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:26,254 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:26,348 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:26,349 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:26,610 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:26,611 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:26,613 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:26,615 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:27,349 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:27,351 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:27,351 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:27,356 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:27,362 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:27,362 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:27,746 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: status_report
+2024-04-19 15:12:27,949 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:27,951 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:27,951 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:27,953 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:28,094 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:28,096 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:28,096 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:28,100 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:28,371 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:28,371 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:28,908 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:28,908 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:28,909 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:28,912 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:29,381 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:29,382 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:29,653 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:29,655 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:29,657 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:29,660 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:30,055 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:30,056 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:30,057 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:30,058 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:30,392 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:30,393 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:30,427 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:30,429 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:30,430 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:30,435 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:31,205 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:31,206 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:31,209 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:31,211 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:31,399 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:31,400 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:31,811 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:31,812 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:31,813 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:31,814 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:31,961 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:31,963 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:31,963 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:31,969 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:32,413 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:32,414 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:32,721 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:32,724 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:32,725 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:32,732 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:32,978 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: status_report
+2024-04-19 15:12:33,424 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:33,425 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:33,480 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:33,485 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:33,486 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:33,489 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:33,878 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:33,879 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:33,879 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:33,881 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:34,245 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:34,247 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:34,248 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:34,252 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:34,440 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:34,440 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:35,005 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:35,009 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:35,009 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:35,013 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:35,450 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:35,618 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:35,619 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:35,620 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:35,622 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:35,776 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:35,778 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:35,779 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:35,782 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:36,457 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:36,458 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:36,598 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:36,601 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:36,601 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:36,605 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:37,014 DEBUG   SystemMonitor:34956 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-19 15:12:37,028 DEBUG   SenderThread:34956 [sender.py:send():379] send: stats
+2024-04-19 15:12:37,340 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:37,342 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:37,343 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:37,346 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:37,467 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:37,529 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-19 15:12:37,529 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: stop_status
+2024-04-19 15:12:37,559 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-19 15:12:37,740 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:37,749 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:37,750 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:37,751 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:38,037 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: status_report
+2024-04-19 15:12:38,097 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:38,099 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:38,100 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:38,104 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:38,477 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:38,478 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:38,851 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:38,853 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:38,854 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:38,861 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:39,444 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:39,445 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:39,446 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:39,447 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:39,486 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:39,600 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:39,602 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:39,603 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:39,605 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:40,363 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:40,366 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:40,367 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:40,369 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:40,494 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:40,495 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:41,209 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:41,212 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:41,212 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:41,215 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:41,497 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:41,678 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:41,680 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:41,680 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:41,682 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:42,045 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:42,049 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:42,050 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:42,055 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:42,506 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:42,507 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:42,812 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:42,814 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:42,816 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:42,821 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:43,082 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: status_report
+2024-04-19 15:12:43,426 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:43,428 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:43,428 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:43,430 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:43,516 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:43,650 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:43,653 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:43,653 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:43,676 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:44,410 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:44,412 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:44,413 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:44,414 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:44,525 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:44,525 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:45,158 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:45,161 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:45,162 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:45,163 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:45,534 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:45,556 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:45,558 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:45,558 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:45,560 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:45,948 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:45,951 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:45,951 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:45,955 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:46,549 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:46,550 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:46,703 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:46,704 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:46,705 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:46,708 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:47,299 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:47,301 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:47,301 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:47,303 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:47,452 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:47,454 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:47,455 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:47,459 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:47,557 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:48,153 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: status_report
+2024-04-19 15:12:48,205 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:48,208 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:48,209 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:48,211 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:48,568 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:48,568 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:49,011 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:49,012 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:49,014 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:49,018 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:49,412 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:49,414 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:49,414 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:49,415 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:49,572 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:49,780 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:49,783 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:49,783 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:49,787 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:50,526 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:50,528 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:50,529 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:50,532 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:50,578 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:50,579 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:51,138 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:51,140 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:51,140 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:51,142 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:51,369 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:51,371 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:51,372 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:51,376 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:51,466 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-19 15:12:51,466 DEBUG   SenderThread:34956 [sender.py:send():379] send: telemetry
+2024-04-19 15:12:51,468 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:51,470 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:51,470 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:51,471 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:51,471 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:51,473 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:51,473 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:51,474 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:51,475 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:51,476 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:51,476 DEBUG   SenderThread:34956 [sender.py:send():379] send: history
+2024-04-19 15:12:51,476 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: summary_record
+2024-04-19 15:12:51,477 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:51,525 DEBUG   SenderThread:34956 [sender.py:send():379] send: exit
+2024-04-19 15:12:51,525 INFO    SenderThread:34956 [sender.py:send_exit():586] handling exit code: 0
+2024-04-19 15:12:51,526 INFO    SenderThread:34956 [sender.py:send_exit():588] handling runtime: 74
+2024-04-19 15:12:51,527 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:51,528 INFO    SenderThread:34956 [sender.py:send_exit():594] send defer
+2024-04-19 15:12:51,528 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: defer
+2024-04-19 15:12:51,529 INFO    HandlerThread:34956 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-19 15:12:51,529 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: defer
+2024-04-19 15:12:51,529 INFO    SenderThread:34956 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-19 15:12:51,529 INFO    SenderThread:34956 [sender.py:transition_state():614] send defer: 1
+2024-04-19 15:12:51,529 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: defer
+2024-04-19 15:12:51,529 INFO    HandlerThread:34956 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-19 15:12:51,530 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: defer
+2024-04-19 15:12:51,530 INFO    SenderThread:34956 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-19 15:12:51,530 INFO    SenderThread:34956 [sender.py:transition_state():614] send defer: 2
+2024-04-19 15:12:51,530 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: defer
+2024-04-19 15:12:51,530 INFO    HandlerThread:34956 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-19 15:12:51,530 INFO    HandlerThread:34956 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-19 15:12:51,530 DEBUG   SystemMonitor:34956 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-19 15:12:51,530 INFO    HandlerThread:34956 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-19 15:12:51,531 DEBUG   SystemMonitor:34956 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-19 15:12:51,531 INFO    HandlerThread:34956 [interfaces.py:finish():202] Joined disk monitor
+2024-04-19 15:12:51,532 INFO    HandlerThread:34956 [interfaces.py:finish():202] Joined memory monitor
+2024-04-19 15:12:51,532 INFO    HandlerThread:34956 [interfaces.py:finish():202] Joined network monitor
+2024-04-19 15:12:51,533 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: defer
+2024-04-19 15:12:51,533 INFO    SenderThread:34956 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-19 15:12:51,534 INFO    SenderThread:34956 [sender.py:transition_state():614] send defer: 3
+2024-04-19 15:12:51,534 DEBUG   SenderThread:34956 [sender.py:send():379] send: stats
+2024-04-19 15:12:51,534 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: defer
+2024-04-19 15:12:51,534 INFO    HandlerThread:34956 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-19 15:12:51,534 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: defer
+2024-04-19 15:12:51,534 INFO    SenderThread:34956 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-19 15:12:51,534 INFO    SenderThread:34956 [sender.py:transition_state():614] send defer: 4
+2024-04-19 15:12:51,535 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: defer
+2024-04-19 15:12:51,535 INFO    HandlerThread:34956 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-19 15:12:51,535 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: defer
+2024-04-19 15:12:51,535 INFO    SenderThread:34956 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-19 15:12:51,535 INFO    SenderThread:34956 [sender.py:transition_state():614] send defer: 5
+2024-04-19 15:12:51,535 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: defer
+2024-04-19 15:12:51,536 INFO    HandlerThread:34956 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-19 15:12:51,536 DEBUG   SenderThread:34956 [sender.py:send():379] send: summary
+2024-04-19 15:12:51,538 INFO    SenderThread:34956 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-19 15:12:51,539 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: defer
+2024-04-19 15:12:51,540 INFO    SenderThread:34956 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-19 15:12:51,540 INFO    SenderThread:34956 [sender.py:transition_state():614] send defer: 6
+2024-04-19 15:12:51,540 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: defer
+2024-04-19 15:12:51,540 INFO    HandlerThread:34956 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-19 15:12:51,541 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: defer
+2024-04-19 15:12:51,541 INFO    SenderThread:34956 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-19 15:12:51,547 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: status_report
+2024-04-19 15:12:51,586 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:51,802 INFO    SenderThread:34956 [sender.py:transition_state():614] send defer: 7
+2024-04-19 15:12:51,802 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: defer
+2024-04-19 15:12:51,802 INFO    HandlerThread:34956 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-19 15:12:51,803 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: defer
+2024-04-19 15:12:51,803 INFO    SenderThread:34956 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-19 15:12:52,537 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-19 15:12:52,559 INFO    SenderThread:34956 [sender.py:transition_state():614] send defer: 8
+2024-04-19 15:12:52,559 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: poll_exit
+2024-04-19 15:12:52,560 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: defer
+2024-04-19 15:12:52,560 INFO    HandlerThread:34956 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-19 15:12:52,560 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: defer
+2024-04-19 15:12:52,561 INFO    SenderThread:34956 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-04-19 15:12:52,561 INFO    SenderThread:34956 [job_builder.py:build():318] Attempting to build job artifact
+2024-04-19 15:12:52,562 INFO    SenderThread:34956 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-04-19 15:12:52,601 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:52,601 INFO    Thread-16 :34956 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\config.yaml
+2024-04-19 15:12:52,717 INFO    SenderThread:34956 [job_builder.py:build():431] adding wandb-job metadata file
+2024-04-19 15:12:52,732 INFO    SenderThread:34956 [sender.py:transition_state():614] send defer: 9
+2024-04-19 15:12:52,732 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: defer
+2024-04-19 15:12:52,732 INFO    HandlerThread:34956 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-19 15:12:52,732 DEBUG   SenderThread:34956 [sender.py:send():379] send: artifact
+2024-04-19 15:12:53,549 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-19 15:12:54,157 INFO    wandb-upload_0:34956 [upload_job.py:push():86] Skipped uploading C:\Users\lucyl\AppData\Local\wandb\wandb\artifacts\staging\tmp7b63jisr
+2024-04-19 15:12:54,747 INFO    wandb-upload_1:34956 [upload_job.py:push():89] Uploaded file C:\Users\lucyl\AppData\Local\Temp\tmpuriwz4zf\wandb-job.json
+2024-04-19 15:12:56,362 INFO    SenderThread:34956 [sender.py:send_artifact():1468] sent artifact job-https___github.com_luscarl_Sigma_human_images.git_9417Sigma_train.py - {'id': 'QXJ0aWZhY3Q6ODAyMjkwNjcw', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE2NDAxMzAyOQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6ODAxMzA0NTcw', 'versionIndex': 2}}}
+2024-04-19 15:12:56,362 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: defer
+2024-04-19 15:12:56,362 INFO    SenderThread:34956 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-04-19 15:12:56,362 INFO    SenderThread:34956 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-19 15:12:56,642 INFO    SenderThread:34956 [dir_watcher.py:finish():388] scan: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files
+2024-04-19 15:12:56,643 INFO    SenderThread:34956 [dir_watcher.py:finish():402] scan save: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\config.yaml config.yaml
+2024-04-19 15:12:56,643 INFO    SenderThread:34956 [dir_watcher.py:finish():402] scan save: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log output.log
+2024-04-19 15:12:56,645 INFO    SenderThread:34956 [dir_watcher.py:finish():402] scan save: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\requirements.txt requirements.txt
+2024-04-19 15:12:56,647 INFO    SenderThread:34956 [dir_watcher.py:finish():402] scan save: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-metadata.json wandb-metadata.json
+2024-04-19 15:12:56,647 INFO    SenderThread:34956 [dir_watcher.py:finish():402] scan save: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json wandb-summary.json
+2024-04-19 15:12:56,651 INFO    SenderThread:34956 [sender.py:transition_state():614] send defer: 10
+2024-04-19 15:12:56,651 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: poll_exit
+2024-04-19 15:12:56,651 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: defer
+2024-04-19 15:12:56,652 INFO    HandlerThread:34956 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-19 15:12:56,654 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: defer
+2024-04-19 15:12:56,654 INFO    SenderThread:34956 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-04-19 15:12:56,654 INFO    SenderThread:34956 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-19 15:12:57,224 INFO    wandb-upload_0:34956 [upload_job.py:push():131] Uploaded file C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\config.yaml
+2024-04-19 15:12:57,367 INFO    wandb-upload_3:34956 [upload_job.py:push():131] Uploaded file C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\wandb-summary.json
+2024-04-19 15:12:57,380 INFO    wandb-upload_2:34956 [upload_job.py:push():131] Uploaded file C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\requirements.txt
+2024-04-19 15:12:57,515 INFO    wandb-upload_1:34956 [upload_job.py:push():131] Uploaded file C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\files\output.log
+2024-04-19 15:12:57,588 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-19 15:12:57,588 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: poll_exit
+2024-04-19 15:12:57,727 INFO    Thread-15 (_thread_body):34956 [sender.py:transition_state():614] send defer: 11
+2024-04-19 15:12:57,727 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: defer
+2024-04-19 15:12:57,727 INFO    HandlerThread:34956 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-19 15:12:57,727 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: defer
+2024-04-19 15:12:57,727 INFO    SenderThread:34956 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-04-19 15:12:57,727 INFO    SenderThread:34956 [file_pusher.py:join():178] waiting for file pusher
+2024-04-19 15:12:57,728 INFO    SenderThread:34956 [sender.py:transition_state():614] send defer: 12
+2024-04-19 15:12:57,728 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: defer
+2024-04-19 15:12:57,728 INFO    HandlerThread:34956 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-19 15:12:57,728 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: defer
+2024-04-19 15:12:57,729 INFO    SenderThread:34956 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-04-19 15:12:57,729 INFO    SenderThread:34956 [file_stream.py:finish():614] file stream finish called
+2024-04-19 15:12:57,930 INFO    SenderThread:34956 [file_stream.py:finish():618] file stream finish is done
+2024-04-19 15:12:57,930 INFO    SenderThread:34956 [sender.py:transition_state():614] send defer: 13
+2024-04-19 15:12:57,931 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: defer
+2024-04-19 15:12:57,931 INFO    HandlerThread:34956 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-19 15:12:57,931 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: defer
+2024-04-19 15:12:57,931 INFO    SenderThread:34956 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-04-19 15:12:57,931 INFO    SenderThread:34956 [sender.py:transition_state():614] send defer: 14
+2024-04-19 15:12:57,931 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: defer
+2024-04-19 15:12:57,931 DEBUG   SenderThread:34956 [sender.py:send():379] send: final
+2024-04-19 15:12:57,932 DEBUG   SenderThread:34956 [sender.py:send():379] send: footer
+2024-04-19 15:12:57,932 INFO    HandlerThread:34956 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-19 15:12:57,932 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: defer
+2024-04-19 15:12:57,932 INFO    SenderThread:34956 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-04-19 15:12:57,932 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-19 15:12:57,933 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-19 15:12:57,933 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: server_info
+2024-04-19 15:12:57,933 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: poll_exit
+2024-04-19 15:12:57,933 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-19 15:12:57,933 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: poll_exit
+2024-04-19 15:12:57,934 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-19 15:12:57,934 DEBUG   SenderThread:34956 [sender.py:send_request():406] send_request: server_info
+2024-04-19 15:12:57,935 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-19 15:12:58,124 INFO    MainThread:34956 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-04-19 15:12:58,125 INFO    MainThread:34956 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-04-19 15:12:58,128 INFO    MainThread:34956 [wandb_run.py:_footer_sync_info():3895] logging synced files
+2024-04-19 15:12:58,129 DEBUG   HandlerThread:34956 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-19 15:12:58,129 INFO    HandlerThread:34956 [handler.py:finish():866] shutting down handler
+2024-04-19 15:12:58,944 INFO    WriterThread:34956 [datastore.py:close():296] close: C:\Users\lucyl\OneDrive\Desktop\Backup\COMP9417\Sigma_human_images\9417Sigma\wandb\run-20240419_151136-a526eynu\run-a526eynu.wandb
+2024-04-19 15:12:59,129 INFO    SenderThread:34956 [sender.py:finish():1546] shutting down sender
+2024-04-19 15:12:59,129 INFO    SenderThread:34956 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-19 15:12:59,129 INFO    SenderThread:34956 [file_pusher.py:join():178] waiting for file pusher

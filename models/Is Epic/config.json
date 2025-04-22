@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "ResnetModelForImageClassification"
+  ],
+  "avg_down": false,
+  "base_width": 16,
+  "block_type": "bottleneck",
+  "cardinality": 1,
+  "input_channels": 3,
+  "layers": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "model_type": "resnet",
+  "num_classes": 2,
+  "stem_type": "",
+  "stem_width": 16,
+  "torch_dtype": "float32",
+  "transformers_version": "4.39.1"
+}
